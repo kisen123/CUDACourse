@@ -13,8 +13,9 @@ int main() {
 
     // We iterate through the arr-variable, by incrementing the pointer position with ++
     for (int i=0; i < 5; i++) {
-        printf("%d ", *ptr);
-        printf("%p\n", ptr);
+        printf("%d\t ", *ptr);
+        printf("%p\t", ptr);
+        printf("%p\n", &ptr);
         ptr++;
     }
 
